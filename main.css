@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sanjar{
+    width: 430px;
+    height: 350px;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 20px;
+    list-style: none;
+    
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between
+}
+.Sanjar2{
+    font-size: 19px;
+}
+
+#searchInput {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#searchInput:focus {
+    border-color: #007BFF;
+}
+
+.aaaaa{
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: 2px solid #ccc;
+    
+}
